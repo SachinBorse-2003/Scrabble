@@ -8,6 +8,5 @@ public class ScrabbleTest {
     public void shouldCreateInstance() {
         Scrabble scrabble = new Scrabble();
         assertEquals(0, scrabble.calculateScore(""));
-        
     }
 }
