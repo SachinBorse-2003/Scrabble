@@ -1,0 +1,17 @@
+# ScrabbleGame Class
+
+## Behaviors
+
+### `calculateScore(String word): int`
+- **Description**: Calculates the score of a given word according to Scrabble rules.
+- **Parameters**: 
+  - `word`: The word for which the score needs to be calculated.
+- **Returns**: 
+  - `int`: The score of the word.
+- **Exceptions**:
+  - `IllegalArgumentException`: Thrown if the word is `null`, empty, or contains invalid characters.
+
+### Smart Constructor
+- **Description**: A constructor that initializes the ScrabbleGame object with specific conditions.
+- **Conditions**:
+  - Only allows instantiation of ScrabbleGame objects if certain conditions are met (e.g., String parameters passed ).
